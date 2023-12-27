@@ -35,7 +35,7 @@ public class Spiel {
 
 
         }
-
+    System.out.println("sum of zuege : " + anzahlZuege);
     }
 
     // getter und setter
