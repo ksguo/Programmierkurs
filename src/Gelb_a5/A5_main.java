@@ -1,16 +1,8 @@
-package Gelb_a3;
+package Gelb_a5;
 
-public class A3_main {
+public class A5_main {
 
     public static void main(String[] args) {
 
-
-
     }
-
-
-
-
-
-
 }

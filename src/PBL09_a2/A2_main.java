@@ -3,23 +3,13 @@ package PBL09_a2;
 public class A2_main {
 
     public static void main(String[] args) {
-// 创建GeoForm数组示例
-        GeoForm[] myForms = {
-                new GeoForm(),
-                new Polygon(),
-                new Quadrat(),
-                new Oval(),
-                new Quadrat(),
-                new Rechteck(),
+        GeoForm[] myForms = {new GeoForm(), new Polygon(), new Quadrat(), new Oval(), new Quadrat(), new GeoForm()};
+        int[] result = formCounterGeneral(myForms);
 
-
-                // 假设Trapez也是一个GeoForm的子类，但在此示例中未定义
-                // new Trapez()
-        };
-
-        // 调用formCounterGeneral并打印结果
-        int[] res = formCounterGeneral(myForms);
-        System.out.println(java.util.Arrays.toString(res));
+        // Print the result
+        for (int count : result) {
+            System.out.print(count + " ");
+        }
 
     }
 
